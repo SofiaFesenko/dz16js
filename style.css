@@ -1,0 +1,30 @@
+.none {
+    display: none;
+}
+
+.modal {
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    
+}
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.modal-close {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    cursor: pointer;
+}
+
+.modal-but {
+    margin-right: 5px;
+}
